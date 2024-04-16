@@ -8,6 +8,7 @@ const NavBar = () => {
             <nav className="navbar  p-3 mb-2 bg-grey text-light">
                 <ul className="nav bg-black rounded">
                    <li> <a className="nav-link text-white " aria-current="page" href="#">Shop</a></li> 
+                   
                    <li> <a className="nav-link text-white " href="#">Explore</a></li>
                    <li> <a className="nav-link text-white " href="#">Bundle</a></li>
                 </ul>

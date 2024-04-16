@@ -19,6 +19,7 @@ const NavBar = () => {
                
                
                <ul className="nav  navbar-right bg-black rounded">
+                
                 <li><a className="nav-link text-white " href="#"><SearchWidget /></a></li>
                 <li> <a className="nav-link text-white" href="#" > <CartWidget /></a></li>
                </ul>

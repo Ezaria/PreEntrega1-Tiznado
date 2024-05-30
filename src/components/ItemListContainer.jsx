@@ -14,20 +14,7 @@ const ItemListContainer = () => {
     const [items, setItems] = useState([]);
     const {id} = useParams();
     
-//acceso a productos via JSON
-    // useEffect(() => {
-    //     const promesa = new Promise(resolve => {
-    //         setTimeout(() => {
-    //             resolve(id ? arrayProducts.filter(item => item.category == id): arrayProducts);
-    //         }, 1000)
-    //     });
-        
-    //     promesa.then(respuesta => {
-    //         setItems(respuesta);
-    //     })
-    // }, [id])
 
-// }, [])
 
 //Acceder a una collection en firestore
 
